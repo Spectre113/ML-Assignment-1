@@ -1,0 +1,47 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing/cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data artifacts
+/data/processed/
+
+# Models (artifacts)
+/models/*.pkl
+
+# Airflow runtime files
+/services/airflow/logs/
+/services/airflow/dag_processor/
+/services/airflow/logs/**
+/services/airflow/dag_processor/**
+
+# Docker logs
+*.log
+
+# Env files
+.env
+.env.*
