@@ -45,3 +45,5 @@ htmlcov/
 # Env files
 .env
 .env.*
+
+!models/director_model.pkl
